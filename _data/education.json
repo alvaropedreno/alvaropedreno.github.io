@@ -1,19 +1,19 @@
 {
 	"education": [{
             "institution": "Universidad de Alicante - Spain",
-            "institution-website": "http://google.com",
-            "degree": "BSc in Computer Science",
-            "specialization": "Software",
+            "institution-website": "https://web.ua.es/es/grados/grado-en-ingenieria-informatica/",
+            "degree": "BSc in Computer Science - Software Mention",
+            "specialization": "",
             "awards": "",
             "years": "2020 - 2025"
 		},
 
 		{
             "institution": "Saarland University - Germany",
-            "institution-website": "http://google.com",
+            "institution-website": "https://www.uni-saarland.de/en/study/programmes/bachelor/computer-science.html",
             "degree": "BSc in Computer Science",
             "awards": "",
             "years": "2022 - 2023"
-		},
+		}
 	]
 }

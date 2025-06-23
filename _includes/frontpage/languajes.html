@@ -1,0 +1,9 @@
+<section class="resume-section" id="languages">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Idiomas</h2>
+      {% for lang in site.data.languages %}
+        <div class="subheading mb-1">{{ lang.name }} - {{ lang.level }}</div>
+        <p>Certificado: {{ lang.certificate }}</p>
+      {% endfor %}
+    </div>
+</section>  

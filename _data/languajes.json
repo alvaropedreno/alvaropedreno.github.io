@@ -1,0 +1,24 @@
+{
+    "languajes": [
+        {
+            "name": "Spanish",
+            "level": "Native",
+            "certificate": "-"
+        },
+        {
+            "name": "English",
+            "level": "Advanced",
+            "certificate": "Cambridge B2, B1. EOI B2, B1."
+        },
+        {
+            "name": "German",
+            "level": "Basic",
+            "certificate": "Saarland University A2"
+        },
+        {
+            "name": "French",
+            "level": "Basic",
+            "certificate": "-"
+        }
+    ]
+}
