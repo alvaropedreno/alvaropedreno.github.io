@@ -1,4 +1,589 @@
----
-layout: frontpage
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Álvaro Pedreño Rubio — CV</title>
+    <meta
+      name="description"
+      content="CV of Álvaro Pedreño Rubio, Software Engineer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="#top" class="nav-brand">Álvaro Pedreño</a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
+    <header id="top" class="hero">
+      <div class="hero-inner">
+        <p class="hero-kicker">Curriculum Vitae</p>
+        <h1>Álvaro Pedreño Rubio</h1>
+        <p class="hero-role">Software Engineer</p>
+        <p class="hero-bio">
+          Software engineer who enjoys the craft of engineering itself — good
+          architecture, clean design decisions, and building things well within
+          a team. Solid experience designing and consuming REST APIs and working
+          with microservices architectures, across Java and
+          JavaScript/TypeScript ecosystems as well as Python, gained delivering
+          projects for clients including a French government agency. Currently
+          based in Murcia, Spain, and actively relocating to New Zealand —
+          Software Engineer sits on the Green List, so I'm looking at roles with
+          AEWV sponsorship.
+        </p>
+        <div class="hero-meta">
+          <a href="mailto:alvaropedrenorubio@gmail.com"
+            >alvaropedrenorubio@gmail.com</a
+          >
+          <span class="dot">·</span>
+          <span>Murcia, Spain</span>
+          <span class="dot">·</span>
+          <span>Open to relocation — New Zealand</span>
+        </div>
+        <div class="hero-links">
+          <a
+            href="https://www.linkedin.com/in/alvaro-pedre%C3%B1o-rubio-06ab31296/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/alvaropedreno"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <h2 class="section-title"><span class="section-num">01</span> About</h2>
+        <p class="about-text">
+          What I enjoy most about this work is the engineering itself: thinking
+          through a good architecture, making deliberate design decisions, and
+          getting the details right as part of a team. I like collaborating
+          closely with other engineers and stakeholders — before moving into
+          software I worked in small hospitality teams and on international
+          university projects, which left me comfortable communicating under
+          pressure and across different working styles. I'm currently looking
+          for my next step as a software engineer in New Zealand.
+        </p>
+      </section>
+
+      <section id="experience" class="section">
+        <h2 class="section-title">
+          <span class="section-num">02</span> Experience
+        </h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-date">2025 — Present</div>
+            <div class="timeline-body">
+              <h3>Software Engineer</h3>
+              <p class="timeline-org">Capgemini · ADCenter</p>
+              <p class="timeline-desc">
+                Rotated across three client engagements within Capgemini's
+                delivery teams:
+              </p>
+              <ul class="exp-list">
+                <li>
+                  <strong>Pharmacokinetics project</strong> — built application
+                  features using Angular, Electron and JavaScript.
+                </li>
+                <li>
+                  <strong>Foundation project</strong> — implemented content and
+                  workflow features using Strapi and Angular.
+                </li>
+                <li>
+                  <strong>ANTAI</strong> (French government National Agency for
+                  the Automated Processing of Offences; delivery split between
+                  France and Spain) — worked in a Java-heavy stack with Camunda,
+                  JHipster, Elasticsearch, Jenkins and Maven; wrote automated
+                  tests with JUnit, Mockito and Cucumber; worked within an Agile
+                  team (Jira, Confluence, daily stand-ups), travelling
+                  periodically to France to present contributions and plan
+                  upcoming work. Developed fluent French through this ongoing
+                  collaboration.
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-date">Aug 2022 — Aug 2023</div>
+            <div class="timeline-body">
+              <h3>Webmaster &amp; Coordinator</h3>
+              <p class="timeline-org">
+                The Writing Centre (Transform4Europe) · Saarland University,
+                Germany
+              </p>
+              <p class="timeline-desc">
+                Built and maintained the Writing Centre's official website.
+                Produced multimedia content for digital promotion and outreach.
+                Coordinated a small team to deliver EU-funded project milestones
+                on schedule.
+              </p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="timeline-subheading">Additional Experience</h3>
+        <ol class="timeline timeline-compact">
+          <li class="timeline-item">
+            <div class="timeline-date">Jun 2024 — Sep 2024</div>
+            <div class="timeline-body">
+              <h3>Team Member</h3>
+              <p class="timeline-org">
+                Chiringuito TuttiFrutti · Cartagena, Spain
+              </p>
+              <p class="timeline-desc">
+                Delivered customer service in a fast-paced seasonal venue;
+                helped streamline food and drink service flow during peak hours.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">Oct 2023 — Dec 2023</div>
+            <div class="timeline-body">
+              <h3>Crew Member</h3>
+              <p class="timeline-org">McDonald's · Alicante, Spain</p>
+              <p class="timeline-desc">
+                Worked cook and cashier stations, keeping service efficient and
+                resolving issues on the floor during busy periods.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="skills" class="section">
+        <h2 class="section-title">
+          <span class="section-num">03</span> Skills
+        </h2>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Backend</h3>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Java</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Golang</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 45%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Python</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Flask</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 65%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">JHipster</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 40%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Camunda</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 65%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">C / C++</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 55%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">RESTful APIs</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Microservices architecture</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-row" data-category="frontend">
+            <div class="skill-name">Angular</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="frontend">
+            <div class="skill-name">React</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 60%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="frontend">
+            <div class="skill-name">Node</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 60%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="frontend">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="frontend">
+            <div class="skill-name">Electron</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 65%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="frontend">
+            <div class="skill-name">HTML / CSS</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="frontend">
+            <div class="skill-name">Strapi (headless CMS)</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 50%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Data, Messaging &amp; Infra</h3>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">MySQL</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Elasticsearch</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 30%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Kafka</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 55%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="backend">
+            <div class="skill-name">Linux</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Testing</h3>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">JUnit</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 75%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">Mockito</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 70%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">Cucumber</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 90%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Tools &amp; Practices</h3>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">Git</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">Jenkins / CI-CD</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 65%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">Maven</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 65%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">Docker</div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 70%"></div>
+            </div>
+          </div>
+          <div class="skill-row" data-category="tools">
+            <div class="skill-name">
+              Agile (Jira, Confluence, daily stand-ups)
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="--level: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2 class="section-title">
+          <span class="section-num">04</span> Notable Projects
+        </h2>
+        <div class="project-grid">
+          <a
+            class="project-card"
+            href="https://github.com/alvaropedreno/sd-2024-easycab"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>EasyCab</h3>
+            <p class="project-desc">
+              Distributed taxi-dispatch simulation built around a Kafka message
+              broker, with separate services for a central controller, taxis and
+              customers communicating over sockets and topics. Backed by SQLite
+              and run with Docker.
+            </p>
+            <p class="project-tags">
+              Python · Kafka · Docker · SQLite · Microservices
+            </p>
+          </a>
+
+          <a
+            class="project-card"
+            href="https://github.com/alvaropedreno/seguridad-diseno-software"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>Secure Software Design</h3>
+            <p class="project-desc">
+              Security-focused Go project working with TLS certificates and key
+              management, exploring secure-by-design patterns at the application
+              level.
+            </p>
+            <p class="project-tags">
+              Golang · TLS/Certificates · Application Security
+            </p>
+          </a>
+
+          <a
+            class="project-card"
+            href="https://github.com/alvaropedreno/todo-list-final-MADS"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>Todo List (MADS)</h3>
+            <p class="project-desc">
+              Task management web app built with Spring Boot and Thymeleaf,
+              backed by a relational database, containerised with Docker and
+              wired up to a CI pipeline.
+            </p>
+            <p class="project-tags">
+              Java · Spring Boot · Docker · CI/CD · Maven
+            </p>
+          </a>
+
+          <a
+            class="project-card"
+            href="https://github.com/alvaropedreno/ppss-2025-G8-pedreno-rubio"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>Software Testing Practicals</h3>
+            <p class="project-desc">
+              Coursework covering the software testing toolchain end to end:
+              unit and mock-based testing, WebDriver-based UI automation, load
+              testing and code coverage analysis.
+            </p>
+            <p class="project-tags">
+              JUnit · Mockito · Selenium WebDriver · JMeter · Maven
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <h2 class="section-title">
+          <span class="section-num">05</span> Education
+        </h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-date">2020 — 2025</div>
+            <div class="timeline-body">
+              <h3>BSc in Computer Engineering — Software Engineering major</h3>
+              <p class="timeline-org">
+                <a
+                  href="https://web.ua.es/es/grados/grado-en-ingenieria-informatica/"
+                  target="_blank"
+                  rel="noopener"
+                  >University of Alicante, Spain</a
+                >
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-date">Aug 2022 — Aug 2023</div>
+            <div class="timeline-body">
+              <h3>BSc in Computer Science — exchange year</h3>
+              <p class="timeline-org">
+                <a
+                  href="https://www.uni-saarland.de/en/study/programmes/bachelor/computer-science.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Saarland University, Germany</a
+                >
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="languages" class="section">
+        <h2 class="section-title">
+          <span class="section-num">06</span> Languages
+        </h2>
+        <div class="lang-list">
+          <div class="lang-row">
+            <div class="skill-name">
+              Spanish <span class="lang-level">Native</span>
+            </div>
+            <div class="skill-bar">
+              <div
+                class="skill-fill"
+                data-category="lang"
+                style="--level: 100%"
+              ></div>
+            </div>
+          </div>
+          <div class="lang-row">
+            <div class="skill-name">
+              English
+              <span class="lang-level">Advanced — Cambridge B2 certified</span>
+            </div>
+            <div class="skill-bar">
+              <div
+                class="skill-fill"
+                data-category="lang"
+                style="--level: 80%"
+              ></div>
+            </div>
+          </div>
+          <div class="lang-row">
+            <div class="skill-name">
+              French
+              <span class="lang-level"
+                >Fluent — developed through work trips to France</span
+              >
+            </div>
+            <div class="skill-bar">
+              <div
+                class="skill-fill"
+                data-category="lang"
+                style="--level: 85%"
+              ></div>
+            </div>
+          </div>
+          <div class="lang-row">
+            <div class="skill-name">
+              German
+              <span class="lang-level"
+                >Intermediate — A2, Saarland University</span
+              >
+            </div>
+            <div class="skill-bar">
+              <div
+                class="skill-fill"
+                data-category="lang"
+                style="--level: 35%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2 class="section-title">
+          <span class="section-num">07</span> Contact
+        </h2>
+        <p class="contact-text">
+          <a href="mailto:alvaropedrenorubio@gmail.com"
+            >alvaropedrenorubio@gmail.com</a
+          >
+        </p>
+        <div class="hero-links">
+          <a
+            href="https://www.linkedin.com/in/alvaro-pedre%C3%B1o-rubio-06ab31296/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/alvaropedreno"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Álvaro Pedreño Rubio</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
